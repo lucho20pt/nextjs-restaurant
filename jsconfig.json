@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/controllers/*": ["backend/controllers/*"],
+      "@/middlewares/*": ["backend/middlewares/*"],
+      "@/models/*": ["backend/models/*"],
+      "@/data/*": ["backend/data/*"],
+      "@/config/*": ["backend/config/*"],
+      
+      "@/components/*": ["components/*"],
+      "@/api/*": ["pages/api/*"],
+      "@/store/*": ["pages/store/*"],
+      "@/styles/*": ["styles/*"]
+    }
+  },
+  "exclude": ["node_modules", "build"]
+}
