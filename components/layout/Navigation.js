@@ -27,7 +27,7 @@ const Navigation = () => {
               <Nav.Link>Menu</Nav.Link>
             </Link>
 
-            <Nav.Link disabled>|</Nav.Link>
+            <Nav.Link disabled className='d-none d-lg-flex'>|</Nav.Link>
 
             <Link href="/events" passHref>
               <Nav.Link>Events</Nav.Link>
