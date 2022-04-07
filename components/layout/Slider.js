@@ -1,6 +1,6 @@
-import Carousel from 'react-bootstrap/Carousel'
 import Image from 'next/image'
 import Link from 'next/link'
+import Carousel from 'react-bootstrap/Carousel'
 import classes from '@/styles/layout/slider.module.scss'
 
 const CAROUSEL = [
@@ -35,14 +35,16 @@ const Slider = () => {
   const carousel = CAROUSEL
   const carouselItem = carousel.map((item, i) => (
     <Carousel.Item className="text-center pb-5" key={i}>
-      <Link href={'/promo'} passHref>
-        <Image style={{cursor:'pointer'}}
+      <Link href="/about" passHref>
+        <a>
+          <Image
             src={item.image}
             alt={item.alt}
             width="800"
             height="400"
-            objectFit='contain'
-        />
+            objectFit="contain"
+          />
+        </a>
       </Link>
       <Carousel.Caption>
         <h6>{item.caption.title}</h6>
