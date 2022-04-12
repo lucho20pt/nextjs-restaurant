@@ -32,7 +32,7 @@ const Layout = (props) => {
       </Head>
       <Header />
 
-      <main>
+      <main className='pb-5 mb-5'>
         {isHomepage && <Slider />}
         <Container className="py-5">{props.children}</Container>
       </main>
