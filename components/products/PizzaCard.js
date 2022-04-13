@@ -19,7 +19,8 @@ const PizzaCard = () => {
         </a>
       </Link>
       <h2 className={classes.title}>Napolitana</h2>
-      <p className={`${classes.desc} ${'px-4'}`}>
+      <strong className={classes.price}>10.99€</strong>
+      <p className={`${classes.desc} ${'px-lg-5 my-1'}`}>
         Lorem ipsum dolor sit, amet consectetur adipisicing elit.
         Molestiae, ratione.
       </p>

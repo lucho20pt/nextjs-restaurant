@@ -6,7 +6,6 @@ export default function Index() {
   return (
     <Layout title="Home Page Title">
       <PizzaList />
-      <PizzaList />
     </Layout>
   )
 }

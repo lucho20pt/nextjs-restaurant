@@ -17,19 +17,19 @@ const PizzaList = () => {
       </Row>
 
       <Row className="text-center">
-        <Col md={4} xs={8} className="mx-auto mb-4">
+        <Col md={4} sm={5} xs={7} className="mx-auto mb-4">
           <PizzaCard />
         </Col>
-        <Col md={4} xs={8} className="mx-auto mb-4">
+        <Col md={4} sm={5} xs={7} className="mx-auto mb-4">
           <PizzaCard />
         </Col>
-        <Col md={4} xs={8} className="mx-auto mb-4">
+        <Col md={4} sm={5} xs={7} className="mx-auto mb-4">
           <PizzaCard />
         </Col>
-        <Col md={4} xs={8} className="mx-auto mb-4">
+        <Col md={4} sm={5} xs={7} className="mx-auto mb-4">
           <PizzaCard />
         </Col>
-        <Col md={4} xs={8} className="mx-auto mb-4">
+        <Col md={4} sm={5} xs={7} className="mx-auto mb-4">
           <PizzaCard />
         </Col>
       </Row>
