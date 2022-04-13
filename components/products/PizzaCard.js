@@ -1,4 +1,4 @@
-import classes from '@/styles/products/PizzaCard.module.scss'
+import classes from '@/styles/pages/product.module.scss'
 import { Row, Col } from 'react-bootstrap'
 import Image from 'next/image'
 import Link from 'next/link'

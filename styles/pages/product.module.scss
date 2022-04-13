@@ -1,0 +1,39 @@
+@import "@/styles/custom.scss";
+
+.product{
+    .info{
+        .title{
+            font-size: 3rem;
+            @include media-breakpoint-up(md) {
+                color: $orange;
+            }
+    
+            @include media-breakpoint-down(md) {
+                color: $green;
+            }
+        }
+    
+        .price{
+            font-size: 3rem;
+        }
+    
+        .desc{
+            font-size: 1.2rem;
+        }
+    }
+    .size{
+        img{
+            opacity: .5;
+        }
+        li:hover,
+        li.active{
+            cursor: pointer;
+            img{
+                opacity: 1;
+            }
+            div{
+                font-weight: bold;
+            }
+        }
+    }
+}
