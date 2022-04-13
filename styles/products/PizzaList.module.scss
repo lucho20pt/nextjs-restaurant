@@ -1,0 +1,21 @@
+@import "@/styles/custom.scss";
+
+.pizzaList{
+    color: $text;
+    
+    .title{
+        color: tint-color($text, 50%);
+        
+        @include media-breakpoint-up(lg) {
+            color: $orange;
+        }
+
+        @include media-breakpoint-down(sm) {
+            color: $green;
+        }
+    }
+
+    .desc{
+        font-size: 1.4rem;
+    }
+}

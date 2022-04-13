@@ -1,0 +1,21 @@
+@import "@/styles/custom.scss";
+
+.pizzaCard{
+    color: $text;
+    color: tint-color($text, 20%);
+    
+    .title{
+        
+        @include media-breakpoint-up(md) {
+            color: $orange;
+        }
+
+        @include media-breakpoint-down(md) {
+            color: $green;
+        }
+    }
+
+    .desc{
+        font-size: 1rem;
+    }
+}
