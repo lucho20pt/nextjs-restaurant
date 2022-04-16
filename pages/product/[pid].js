@@ -17,8 +17,8 @@ const Product = () => {
     <Layout title="Product Page Title">
       <section className={classes.product}>
         <Row>
+          {/* Image */}
           <Col md={6} className="text-center mx-auto">
-            {/* Image */}
             <Image
               src={pizza.img}
               width="350"
@@ -28,12 +28,13 @@ const Product = () => {
             />
           </Col>
 
+          {/* Info */}
           <Col
             md={6}
             xs={10}
             className="text-lg-start text-center mx-auto"
           >
-            {/* Info */}
+            
             <article className={classes.info}>
               <h1 className={classes.title}>{pizza.name}</h1>
               <span className={classes.price}>
@@ -136,7 +137,12 @@ const Product = () => {
             <Row>
               <Col xs={3} lg={2}>
                 <Form.Label visuallyHidden>Quantity</Form.Label>
-                <Form.Control type="number" min="1" max="9" defaultValue={1} />
+                <Form.Control
+                  type="number"
+                  min="1"
+                  max="9"
+                  defaultValue={1}
+                />
               </Col>
               <Col>
                 <Button type="submit" className="mb-2">
