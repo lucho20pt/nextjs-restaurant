@@ -1,0 +1,25 @@
+@import "@/styles/custom.scss";
+
+.cart {
+    .table{
+        width: 100%;
+        
+            th{
+                font-size: 1rem;
+                border: 1px solid $dark;
+            }
+            td{
+                font-size: .8rem;
+                border: 1px solid #cccccc;
+            }
+        
+    }
+    .cartTotal{
+        background-color: $light;
+        border-radius: 5px;
+        border: 1px solid $dark;
+        .checkout{
+            text-align: center;
+        }
+    }
+}
