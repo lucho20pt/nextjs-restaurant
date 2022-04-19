@@ -1,4 +1,4 @@
-import classes from '@/styles/cart/cart.module.scss'
+import classes from '@/styles/pages/cart.module.scss'
 import Layout from '@/components/layout/Layout'
 import Image from 'next/image'
 import { Row, Col } from 'react-bootstrap'
@@ -9,7 +9,7 @@ const Cart = () => {
       <section className={classes.cart}>
         <Row>
           {/* Products */}
-          <Col md={8} className="text-center mb-5">
+          <Col lg={8} className="text-center mb-5">
             <table
               className={classes.table}
               width="100%"

@@ -1,0 +1,47 @@
+@import "@/styles/custom.scss";
+
+.orders {
+    .table{
+        width: 100%;
+        
+            th{
+                font-size: 1rem;
+                border: 1px solid $dark;
+            }
+            td{
+                font-size: .8rem;
+                border: 1px solid #cccccc;
+            }
+        
+    }
+    .status{
+        img{
+            opacity: .5;
+        }
+        &_inProgress{
+            img{
+                // opacity: 1;
+                animation: fadeInOut 2s 5s infinite;
+                @keyframes fadeInOut {
+                    0% { opacity: .1; }
+                    50% { opacity: .9; }
+                    100% { opacity: .1; }
+                }
+            }
+        }
+        &_done{
+            img{
+                opacity: 1;
+            }
+        }
+        
+    }
+    .cartTotal{
+        background-color: $light;
+        border-radius: 5px;
+        border: 1px solid $dark;
+        .checkout{
+            text-align: center;
+        }
+    }
+}
