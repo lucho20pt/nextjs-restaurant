@@ -21,7 +21,6 @@ const Orders = () => {
                   <th className={classes.name}>Order ID</th>
                   <th className={classes.customer}>Customer</th>
                   <th className={classes.address}>Address</th>
-                  <th className={classes.price}>Price</th>
                   <th className={classes.total}>Total</th>
                 </tr>
               </thead>
@@ -35,9 +34,6 @@ const Orders = () => {
                   </td>
                   <td className={classes.address}>
                     <div>Praceta Cristovão Falcão, N22 5D</div>
-                  </td>
-                  <td className={classes.price}>
-                    <div>9.99€</div>
                   </td>
                   <td className={classes.total}>
                     <div>19.98€</div>
