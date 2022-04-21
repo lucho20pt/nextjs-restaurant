@@ -1,6 +1,6 @@
 import mongoose from 'mongoose'
 
-/* PetSchema will correspond to a collection in your MongoDB database. */
+/* OrderSchema will correspond to a collection in your MongoDB database. */
 const OrderSchema = new mongoose.Schema(
   {
     customer: {
