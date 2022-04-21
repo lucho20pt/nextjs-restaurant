@@ -6,7 +6,7 @@
       "@/middlewares/*": ["backend/middlewares/*"],
       "@/models/*": ["backend/models/*"],
       "@/data/*": ["backend/data/*"],
-      "@/config/*": ["backend/config/*"],
+      "@/lib/*": ["backend/lib/*"],
       
       "@/components/*": ["components/*"],
       "@/api/*": ["pages/api/*"],
