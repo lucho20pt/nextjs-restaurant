@@ -10,6 +10,7 @@
       
       "@/components/*": ["components/*"],
       "@/api/*": ["pages/api/*"],
+      "@/utils/*": ["utils/*"],
       "@/store/*": ["pages/store/*"],
       "@/styles/*": ["styles/*"]
     }
